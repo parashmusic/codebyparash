@@ -12,6 +12,7 @@ const About = () => {
         <h2 className='text-3xl font-bold md:text-5xl text-zinc-100 text-center mt-6'>A Sneak Peek Into My Life</h2>
         <p className='text-center text-white/60 mt-4 md:text-lg lg:text-xl max-w-md mx-auto'>Get to Know Me and What Drives Me</p>
       </div>
+      {/* <BentoGridDemo/> */}
       <BentoGridDemo/>
       </div>
   )
