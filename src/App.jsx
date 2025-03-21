@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./components/Hero";
 import ShapeBlur from "./components/ui/ShapeBlur";
 import Projects from "./components/Projects";
-import { HeroParallaxDemo } from "./components/featured";
+import { HeroParallaxDemo } from "./components/featured.jsx";
 import Tape from "./components/tape";
 import ScrollVelocity from "./components/ui/ScrollVelocity";
 import Navbar from "./components/Header";
