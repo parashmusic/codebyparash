@@ -4,4 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
+  build: {
+    assetsInclude: ['**/*.ttf'], // Ensure .ttf files are treated as assets
+  },
 })
