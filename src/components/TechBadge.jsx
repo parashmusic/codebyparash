@@ -41,7 +41,7 @@ export default function TechBadge({ name, icon }) {
 
   return (
     <motion.div
-      className="bg-[#0c1220] border text-white border-gray-700 rounded-md px-3 py-2 flex items-center gap-2 cursor-pointer"
+      className="bg-[#0c1220] border text-white text-xs lg:text-sm border-gray-700 rounded-md px-3 py-2 flex items-center gap-2 cursor-pointer"
       whileHover={{
         scale: 1.05,
         borderColor: "#2dd4bf",

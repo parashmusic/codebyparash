@@ -12,6 +12,7 @@ import { AnimatedPinDemo } from "./components/ui/AnimatedPinDemo";
 import Work from "./components/Work";
 import { BentoGridDemo} from "./components/Bento";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 const App = () => {
   const navItems = [
@@ -61,7 +62,7 @@ const App = () => {
       <Projects />
       </section>
       <About/>
-      
+      <Footer/>
       
     </div>
   );

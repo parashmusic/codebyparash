@@ -3,7 +3,7 @@ import { BentoGridDemo } from './Bento'
 
 const About = () => {
   return (
-    <div>
+    <div className='mx-2 mt-20 lg:mt-0'>
           {/* header */}
           <div className='mb-12'>
         <div className="flex justify-center ">

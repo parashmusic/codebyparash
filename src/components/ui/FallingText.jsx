@@ -215,15 +215,15 @@ const FallingText = ({
   return (
     <div
       ref={containerRef}
-      className="relative z-[1] w-full h-full cursor-pointer text-center pt-8 overflow-hidden"
+      className="relative z-[1] w-full h-[100%]  cursor-pointer text-center mt-6 pt-8 overflow-hidden"
       onClick={trigger === "click" ? handleTrigger : undefined}
       onMouseOver={trigger === "hover" ? handleTrigger : undefined}
     >
       <div
         ref={textRef}
-        className="inline-block"
+        className="inline-block text-indigo-500 text-2xl lg:text-[1.75rem]"
         style={{
-          fontSize,
+          // fontSize,
           lineHeight: 1.4,
         }}
       />
