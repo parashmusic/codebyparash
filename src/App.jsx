@@ -23,7 +23,7 @@ const App = () => {
     },
     {
       name: "About",
-      link: "#testimonal",
+      link: "#about",
       icon: <User className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {

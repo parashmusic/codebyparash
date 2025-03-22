@@ -112,6 +112,7 @@ export function BentoGridDemo() {
                 </motion.span>
                 <h3 className="text-2xl text-white font-bold">Music in the backdrop</h3>
               </div>
+              
               </div>
             <h2 className="text-gray-400 text-xl font-bold mb-4">Popular</h2>
 
