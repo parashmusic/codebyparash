@@ -10,16 +10,16 @@ import image6 from '../assets/craft.png';
 
 const Work = () => {
   return (
-    <div className="relative  w-full min-h-screen bg-night-sky overflow-hidden flex flex-col justify-center items-center">
+    <div className="relative mt-28 w-full min-h-screen bg-night-sky overflow-hidden flex flex-col justify-center items-center">
       {/* Twinkling Stars */}
       <div className="stars"></div>
       {/* header */}
       <div>
         <div className="flex justify-center ">
-          <p className='uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-indigo-400 bg-clip-text text-transparent'>From Brainstorm to Breakthrough</p>
+          <p className='uppercase text-xs lg:text-[1rem] font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-indigo-400 bg-clip-text text-transparent'>From Brainstorm to Breakthrough</p>
         </div>
         <h2 className='text-3xl font-bold md:text-5xl text-zinc-100 text-center mt-6'>Featured Projects</h2>
-        <p className='text-center text-white/60 mt-4 md:text-lg lg:text-xl max-w-md mx-auto'>Bringing digital dreams to life with innovation and precision</p>
+        <p className='text-center text-white/60 mt-4 text-sm  md:text-lg lg:text-xl max-w-md lg:mx-auto mx-10'>Bringing digital dreams to life with innovation and precision</p>
       </div>
 
       {/* Content */}

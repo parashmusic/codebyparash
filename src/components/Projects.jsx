@@ -70,7 +70,7 @@ const Projects = () => {
   return (
     <div>
       <div
-        className="text-white text-center uppercase leading-full tracking-wide mt-4 mb-30"
+        className="text-white text-center uppercase leading-full tracking-wide mt-4 mb-10 lg:mb-30"
         style={{ fontFamily: "StonerDemo, sans-serif" }}
       >
         <h1 className="lg:text-5xl text-[2rem]">
@@ -85,7 +85,7 @@ const Projects = () => {
           autoplay={true}
           autoplaySpeed={0.4}
           autoplayDirection="down"
-          pauseOnHover={false}
+          pauseOnHover={true}
         />
       </div>
     </div>

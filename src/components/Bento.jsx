@@ -381,7 +381,8 @@ export function BentoGridDemo() {
         zIndex: 0,
       }}
     >
-      <Particles
+      <div className="stars"></div>
+      {/* <Particles
         particleColors={["#ffffff", "#60a5fa"]}
         particleCount={200}
         particleSpread={20}
@@ -390,7 +391,7 @@ export function BentoGridDemo() {
         moveParticlesOnHover={true}
         alphaParticles={true}
         disableRotation={false}
-      />
+      /> */}
     </div>
           <div>
             
