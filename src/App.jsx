@@ -44,7 +44,7 @@ const App = () => {
 
       {/* <ShapeBlur className='absolute'/> */}
 
-      {/* <HeroParallaxDemo /> */}
+      <HeroParallaxDemo />
 
       <section id="project">
       <Work/>
