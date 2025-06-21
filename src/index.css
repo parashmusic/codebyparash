@@ -40,7 +40,7 @@ body {
 
 .bg-night-sky {
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(1, 1, 19) 35%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(2, 2, 39) 35%, rgba(0,0,0,1) 100%);
   position: relative;
   overflow: hidden;
   min-height: 100vh;
@@ -62,7 +62,7 @@ body {
   box-shadow: 
     10vw 10vh white, 20vw 30vh white, 30vw 50vh white, 
     40vw 20vh white, 50vw 70vh white, 60vw 90vh white, 
-    70vw 80vh white, 80vw 95vh white, 90vw 40vh white, 
+    70vw 80vh white, 80vw 95vh white, 90vw 40vh white, 90vw 40vh white, 90vw 40vh white, 90vw 40vh white, 
     15vw 60vh white, 35vw 10vh white, 55vw 25vh white;
   animation: twinkle 2s infinite alternate;
 }

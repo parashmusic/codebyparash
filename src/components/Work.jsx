@@ -6,7 +6,8 @@ import image3 from '../assets/rmchome.png';
 import image4 from '../assets/lata.png';
 import image5 from '../assets/image1.png';
 import image6 from '../assets/craft.png';
-
+import image7 from '../assets/cleoville.png';
+import image8 from '../assets/nexz.png';
 
 const Work = () => {
   return (
@@ -27,7 +28,10 @@ const Work = () => {
         <AnimatedPinDemo title="rmcassam.com" link_prop="https://www.rmcassam.com" heading_prop="regional Music Centre" desc_prop="a full stack dynamic website with both client and user side rendering" image={image1} />
         <AnimatedPinDemo title="parashmusic.com" link_prop="https://parashmusic.vercel.app/" heading_prop="Records Portfolio" desc_prop="my artist portfolio webiste build with advanced technologies like Three Js" image={image2} />
         <AnimatedPinDemo title="craftconnect.com" link_prop="https://ccprototype.vercel.app/" heading_prop="Craft Connect" desc_prop="building a marketplace for home business owners" image={image6} />
-        <AnimatedPinDemo title="latasarees.com" link_prop="https://latasarees.vercel.app/" heading_prop="Lata Sarees" desc_prop="textile oriented e-commerce web app designed for fabric cataloging" image={image4} />
+        <AnimatedPinDemo title="latasarees.com" link_prop="https://www.latasarees.com" heading_prop="Lata Sarees" desc_prop="textile oriented e-commerce web app designed for fabric cataloging" image={image4} />
+        <AnimatedPinDemo title="cleoville.com" link_prop="https://www.cleoville.store" heading_prop="Cleoville" desc_prop="gifting oriented e-commerce web app having interactive mockups" image={image7} />
+        <AnimatedPinDemo title="nexzfintech.com" link_prop="https://nexz-frontend.vercel.app/" heading_prop="Nexz" desc_prop="fintech AI powered trading App" image={image8} />
+
       </div>
     </div>
   );
