@@ -411,7 +411,7 @@ export function BentoGridDemo() {
             text={`Photography Blender Cinematography Ableton Design AE Visuals  Valorant Gaming Figma Music Concerts Streams OBS`}
             highlightWords={["Blender", "Ableton", "AE", "Valorant", "Figma", "emotion","Concerts","OBS"]}
             highlightClass="highlighted"
-            trigger="hover"
+            trigger="scroll"
             backgroundColor="transparent"
             wireframes={false}
             gravity={0.56}
