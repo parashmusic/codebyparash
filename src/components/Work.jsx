@@ -9,6 +9,64 @@ import image6 from '../assets/craft.png';
 import image7 from '../assets/cleoville.png';
 import image8 from '../assets/nexz.png';
 import image9 from '../assets/008.png';
+const projects = [
+  {
+    title: "rmcassam.com",
+    link: "https://www.rmcassam.com",
+    heading: "Regional Music Centre",
+    description: "A full stack dynamic website with both client and user side rendering.",
+    image: image1,
+    icons: [<i className="ci ci-react" key="react"></i>,
+      <i class="ci ci-typescript"></i>,
+            <i class="ci ci-tailwindcss"></i>,
+            <i class="ci ci-django"></i>,
+            <i class="ci ci-aws"></i>,
+       ],
+  },
+  {
+    title: "parashmusic.com",
+    link: "https://github.com/parashmusic/Juno-CLI",
+    heading: "JUNO AI Code Assistant",
+    description: "A powerful command-line AI assistant that can both edit code files and act as a general-purpose AI chatbot.",
+    image: image2,
+    icons: [<i className="ci ci-python" key="python"></i>, <i class="ci ci-tensorflow"></i>,<i class="ci ci-git"></i>],
+  },
+  {
+    title: "Tracerxco.com",
+    link: "https://tracerxco.vercel.app/",
+    heading: "TracerX",
+    description: "TracerX - Finance and Project Scheduling and management app for solo freelancers and team.",
+    image: image9,
+    icons: [<i className="ci ci-react" key="react"></i>,<i class="ci ci-nodejs"></i>,<i class="ci ci-sqlite"></i>,<i class="ci ci-mongodb"></i>,],
+  },
+  {
+    title: "cleoville.com",
+    link: "https://www.cleoville.store",
+    heading: "Cleoville",
+    description: "Gifting oriented e-commerce web app having interactive mockups.",
+    image: image7,
+    icons: [<i className="ci ci-react" key="react"></i>,
+        <i className="ci ci-nodejs" key="nodejs"></i>,
+        <i className="ci ci-mongodb" key="mongodb"></i>,
+        <i class="ci ci-nextjs"></i>],  },
+  {
+    title: "latasarees.com",
+    link: "https://www.latasarees.com",
+    heading: "Lata Sarees",
+    description: "Textile oriented e-commerce web app designed for fabric cataloging.",
+    image: image4,
+    icons: [<i className="ci ci-react" key="react"></i>, <i className="ci ci-nodejs" key="nodejs"></i>, <i className="ci ci-mongodb" key="mongodb"></i>],
+  },
+  {
+    title: "nexzfintech.com",
+    link: "https://www.nexzfintech.com/",
+    heading: "Nexz",
+    description: "Fintech AI powered trading App.",
+    image: image8,
+    icons: [<i className="ci ci-react" key="react"></i>, <i className="ci ci-python" key="python"></i>],
+  },
+];
+
 const Work = () => {
   return (
     <div className="relative mt-28 w-full min-h-screen bg-night-sky overflow-hidden flex flex-col justify-center items-center">
@@ -25,13 +83,17 @@ const Work = () => {
 
       {/* Content */}
       <div className='grid lg:grid-cols-2 mx-auto lg:w-[70vw] md:grid-cols-1 sm:grid-cols-1 relative z-10'>
-        <AnimatedPinDemo title="rmcassam.com" link_prop="https://www.rmcassam.com" heading_prop="regional Music Centre" desc_prop="a full stack dynamic website with both client and user side rendering" image={image1} />
-        <AnimatedPinDemo title="parashmusic.com" link_prop="https://github.com/parashmusic/Juno-CLI" heading_prop="JUNO  AI Code Assistant" desc_prop="A powerful command-line AI assistant,that can both edit code files and act as a general-purpose AI chatbot" image={image2} />
-        <AnimatedPinDemo title="Tracerxco.com" link_prop="https://tracerxco.vercel.app/" heading_prop="TracerX" desc_prop="TracerX - Finance and Project Scheduding and management app for solo freelancers and team" image={image9} />
-        <AnimatedPinDemo title="cleoville.com" link_prop="https://www.cleoville.store" heading_prop="Cleoville" desc_prop="gifting oriented e-commerce web app having interactive mockups" image={image7} />
-        <AnimatedPinDemo title="latasarees.com" link_prop="https://www.latasarees.com" heading_prop="Lata Sarees" desc_prop="textile oriented e-commerce web app designed for fabric cataloging" image={image4} />
-        <AnimatedPinDemo title="nexzfintech.com" link_prop="https://www.nexzfintech.com/" heading_prop="Nexz" desc_prop="fintech AI powered trading App" image={image8} />
-
+        {projects.map((project, index) => (
+          <AnimatedPinDemo 
+            key={index}
+            title={project.title} 
+            link_prop={project.link} 
+            heading_prop={project.heading} 
+            desc_prop={project.description} 
+            image={project.image}
+            icons={project.icons}
+          />
+        ))}
       </div>
     </div>
   );

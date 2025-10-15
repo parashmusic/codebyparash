@@ -10,15 +10,7 @@ import icon4 from "../../assets/bohni1.jpg";
 import icon5 from "../../assets/bohni1.jpg";
 
 // Replace one of the icons with the MongoDB icon
-const iconLists = [
-  <i className="ci ci-react" key="react"></i>,
-  <i className="ci ci-nextjs" key="nextjs"></i>,
-  <i className="ci ci-aws" key="postman"></i>,
-  <i className="ci ci-nodejs" key="nodejs"></i>,
-  <i className="ci ci-mongodb" key="mongodb"></i>,
-];
-
-export function AnimatedPinDemo({ title, link_prop, heading_prop, desc_prop, image }) {
+export function AnimatedPinDemo({ title, link_prop, heading_prop, desc_prop, image, icons = [] }) {
   return (
     <div className="lg:h-[40rem] h-[30rem] w-full flex items-center justify-center  ">
       <PinContainer title={title} href={link_prop}>
@@ -43,7 +35,7 @@ export function AnimatedPinDemo({ title, link_prop, heading_prop, desc_prop, ima
         
           <div className="flex items-center justify-between mt-4 mb-3">
             <div className="flex items-center">
-              {iconLists.map((icon, index) => (
+              {icons.map((icon, index) => (
                 <div
                   key={index}
                   className="border border-white/[.2] rounded-full  bg-gradient-to-r from-gray-900 via-gray-950 to-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"

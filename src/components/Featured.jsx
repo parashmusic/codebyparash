@@ -6,7 +6,10 @@ import image3 from '../assets/rmchome.png';
 import image4 from '../assets/lata2.png';
 import image5 from '../assets/image1.png';
 import image6 from '../assets/craft.png';
-import image7 from '../assets/007.png';
+import image7 from '../assets/Scene2.png';
+import image78 from '../assets/tracerx.png';
+import image8 from '../assets/nexz1.png';
+import image9 from '../assets/cleoville.png';
 export function HeroParallaxDemo() {
   const products = [
     {
@@ -40,25 +43,23 @@ export function HeroParallaxDemo() {
       thumbnail: "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
     },
     {
-      title: "Postman",
-      link: "https://algochurn.com",
-      thumbnail: image5,
+      title: "JUNO CLI",
+      link: "https://github.com/parashmusic/Juno-CLI",
+      thumbnail: image7,
     },
     {
-      title: "Aceternity UI",
-      link: "https://ui.aceternity.com",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      title: "TracerX",
+      link: "https://tracerxco.vercel.app/",
+       thumbnail: image78,
     },
     {
-      title: "Cursor",
-      link: "https://cursor.so",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-    },
+      title: "Nexz",
+      link: "https://www.nexzfintech.com/",
+      thumbnail: image8,    },
     {
-      title: "SmartBridge",
-      link: "https://smartbridgetech.com",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-    },
+      title: "cleoville",
+      link: "https://cleoville.store",
+      thumbnail: image9,    },
   ];
 
   return <HeroParallax products={products} />;
