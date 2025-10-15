@@ -6,7 +6,7 @@ import image3 from '../assets/rmchome.png';
 import image4 from '../assets/lata2.png';
 import image5 from '../assets/image1.png';
 import image6 from '../assets/craft.png';
-
+import image7 from '../assets/007.png';
 export function HeroParallaxDemo() {
   const products = [
     {

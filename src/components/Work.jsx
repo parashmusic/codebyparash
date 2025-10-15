@@ -1,14 +1,14 @@
 import React from 'react';
 import { AnimatedPinDemo } from './ui/AnimatedPinDemo';
 import image1 from '../assets/rmc.png';
-import image2 from '../assets/parashmusic.png';
+import image2 from '../assets/Scene2.png';
 import image3 from '../assets/rmchome.png';
 import image4 from '../assets/lata.png';
 import image5 from '../assets/image1.png';
 import image6 from '../assets/craft.png';
 import image7 from '../assets/cleoville.png';
 import image8 from '../assets/nexz.png';
-
+import image9 from '../assets/008.png';
 const Work = () => {
   return (
     <div className="relative mt-28 w-full min-h-screen bg-night-sky overflow-hidden flex flex-col justify-center items-center">
@@ -26,11 +26,11 @@ const Work = () => {
       {/* Content */}
       <div className='grid lg:grid-cols-2 mx-auto lg:w-[70vw] md:grid-cols-1 sm:grid-cols-1 relative z-10'>
         <AnimatedPinDemo title="rmcassam.com" link_prop="https://www.rmcassam.com" heading_prop="regional Music Centre" desc_prop="a full stack dynamic website with both client and user side rendering" image={image1} />
-        <AnimatedPinDemo title="parashmusic.com" link_prop="https://parashmusic.vercel.app/" heading_prop="Records Portfolio" desc_prop="my artist portfolio webiste build with advanced technologies like Three Js" image={image2} />
-        <AnimatedPinDemo title="craftconnect.com" link_prop="https://ccprototype.vercel.app/" heading_prop="Craft Connect" desc_prop="building a marketplace for home business owners" image={image6} />
-        <AnimatedPinDemo title="latasarees.com" link_prop="https://www.latasarees.com" heading_prop="Lata Sarees" desc_prop="textile oriented e-commerce web app designed for fabric cataloging" image={image4} />
+        <AnimatedPinDemo title="parashmusic.com" link_prop="https://github.com/parashmusic/Juno-CLI" heading_prop="JUNO  AI Code Assistant" desc_prop="A powerful command-line AI assistant,that can both edit code files and act as a general-purpose AI chatbot" image={image2} />
+        <AnimatedPinDemo title="Tracerxco.com" link_prop="https://tracerxco.vercel.app/" heading_prop="TracerX" desc_prop="TracerX - Finance and Project Scheduding and management app for solo freelancers and team" image={image9} />
         <AnimatedPinDemo title="cleoville.com" link_prop="https://www.cleoville.store" heading_prop="Cleoville" desc_prop="gifting oriented e-commerce web app having interactive mockups" image={image7} />
-        <AnimatedPinDemo title="nexzfintech.com" link_prop="https://nexz-frontend.vercel.app/" heading_prop="Nexz" desc_prop="fintech AI powered trading App" image={image8} />
+        <AnimatedPinDemo title="latasarees.com" link_prop="https://www.latasarees.com" heading_prop="Lata Sarees" desc_prop="textile oriented e-commerce web app designed for fabric cataloging" image={image4} />
+        <AnimatedPinDemo title="nexzfintech.com" link_prop="https://www.nexzfintech.com/" heading_prop="Nexz" desc_prop="fintech AI powered trading App" image={image8} />
 
       </div>
     </div>

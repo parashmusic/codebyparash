@@ -13,7 +13,7 @@ import icon5 from "../../assets/bohni1.jpg";
 const iconLists = [
   <i className="ci ci-react" key="react"></i>,
   <i className="ci ci-nextjs" key="nextjs"></i>,
-  <i className="ci ci-postman" key="postman"></i>,
+  <i className="ci ci-aws" key="postman"></i>,
   <i className="ci ci-nodejs" key="nodejs"></i>,
   <i className="ci ci-mongodb" key="mongodb"></i>,
 ];

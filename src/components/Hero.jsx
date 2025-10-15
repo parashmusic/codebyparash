@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import RotatingText from "./ui/RotatingText";
 import Aurora from "./ui/Aurora"; // Ensure the correct import
-import AuroraShader from './ui/AuroraShader';
+// import AuroraShader from './ui/AuroraShader';
 const text = [
   "Transforming",
   "Visions",
@@ -17,18 +17,18 @@ const Hero = () => {
     <div className="relative pb-20 pt-36 bg-black overflow-hidden">
       {/* Aurora Background */}
       <div className="absolute -top-[6rem] lg:-top-[10rem] inset-0 z-0">
-        {/* <Aurora
-          colorStops={["#80C3FF", "", "#CB9BFF"]}
+        <Aurora
+          colorStops={["#80C3FF", '#5227FF', "#CB9BFF"]}
           blend={0.5}
           amplitude={0.7}
           speed={0.6}
-        /> */}
-        <AuroraShader
+        />
+        {/* <AuroraShader
           colorStops={['#5227FF', '#7cff67', '#5227FF']}
           amplitude={1.0}
           blend={0.5}
           speed={1.0}
-        />
+        /> */}
       </div>
 
       {/* Grid Background with Fade Effect */}
@@ -91,11 +91,13 @@ const Hero = () => {
                 "Next js",
                 "Python",
                 "Django",
+                "Express Js",
+                "React-Native",
                 "AWS CloudFront",
                 "C & C++",
                 "PHP",
                 "ORACLE PLSQL",
-                "Postgre SQL",
+                "SQLite",
               ]}
               mainClassName="px-3 font-bold sm:px-2 md:px-3 bg-gradient-to-r from-purple-900 via-purple-800 to-violet-800 text-white text-2xl overflow-hidden py-1 sm:py-1 md:py-2 justify-center rounded-lg"
               staggerFrom={"last"}
