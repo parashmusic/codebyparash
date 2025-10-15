@@ -17,12 +17,12 @@ const Hero = () => {
     <div className="relative pb-20 pt-36 bg-black overflow-hidden">
       {/* Aurora Background */}
       <div className="absolute -top-[6rem] lg:-top-[10rem] inset-0 z-0">
-        {/* <Aurora
+        <Aurora
           colorStops={["#80C3FF", "", "#CB9BFF"]}
           blend={0.5}
           amplitude={0.7}
           speed={0.6}
-        /> */}
+        />
       </div>
 
       {/* Grid Background with Fade Effect */}
