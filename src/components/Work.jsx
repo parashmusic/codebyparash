@@ -63,7 +63,10 @@ const projects = [
     heading: "Nexz",
     description: "Fintech AI powered trading App.",
     image: image8,
-    icons: [<i className="ci ci-react" key="react"></i>, <i className="ci ci-python" key="python"></i>],
+    icons:[<i className="ci ci-react" key="react"></i>,
+        <i className="ci ci-nodejs" key="nodejs"></i>,
+        <i className="ci ci-mongodb" key="mongodb"></i>,
+        <i class="ci ci-nextjs"></i>],
   },
 ];
 
